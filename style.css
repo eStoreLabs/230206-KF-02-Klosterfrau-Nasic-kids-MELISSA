@@ -42,7 +42,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
-  max-width: 998px;
+  max-width: 790px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -351,10 +351,11 @@
   }
   #es-nasic.es-nasic .es-kv__heroCtn {
     display: block;
-    padding-top: 5rem;
+    width: 100%;
   }
   #es-nasic.es-nasic .es-kv__contentCtn {
     margin-bottom: 100px;
+    max-width: 35%;
   }
   #es-nasic.es-nasic .es-kv__title {
     max-width: 400px;
@@ -364,6 +365,7 @@
   }
   #es-nasic.es-nasic .es-kv__productCtn {
     margin-top: 280px;
+    margin-right: 1rem;
   }
   #es-nasic.es-nasic .es-kv__nasic {
     max-width: 200px;

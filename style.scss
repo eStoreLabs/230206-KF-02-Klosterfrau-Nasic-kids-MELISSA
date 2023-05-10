@@ -55,7 +55,7 @@ $es-grey: #ffecf9;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
-    max-width: 998px;
+    max-width: 790px;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -367,11 +367,11 @@ $es-grey: #ffecf9;
         align-items: flex-end;
         &__heroCtn{
             display: block;
-            padding-top: 5rem; 
+            width: 100%;
         }
         &__contentCtn{
             margin-bottom: 100px;
-            
+            max-width: 35%;
         }
         &__title{
             max-width: 400px;
@@ -381,6 +381,7 @@ $es-grey: #ffecf9;
         }
         &__productCtn{
             margin-top: 280px;
+            margin-right: 1rem;
         }
         &__nasic{
             max-width: 200px;
